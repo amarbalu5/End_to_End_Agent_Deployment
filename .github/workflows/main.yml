@@ -21,6 +21,6 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://Amarbalu:$HF_TOKEN@huggingface.co/spaces/Amarbalu/Agentic_AI End_to_End_Agent_Deployment
+        run: git push --force https://Amarbalu:$HF_TOKEN@huggingface.co/spaces/Amarbalu/Agents_AI End_to_End_Agent_Deployment
        
          
