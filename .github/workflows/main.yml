@@ -20,6 +20,6 @@ jobs:
 
       - name: Push to hub
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }} # When creating the token we should use the Write intead of Read or FineGrain
         run: git push --force https://Amarbalu:$HF_TOKEN@huggingface.co/spaces/Amarbalu/Agents_AI End_to_End_Agent_Deployment
       
